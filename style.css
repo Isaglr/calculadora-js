@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: hp;
+    src: url(harry_p/HARRYP__.TTF);
+}
+
+h1{
+
+    height: 20px;
+   color: rgba(255, 255, 255, 0.956);
+    font-family: hp;
+}
+
+body{
+   background: rgb(18, 55, 17);
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    height: 100vh;
+}
+
+#calculator {
+    max-width: 360px;
+    background-image: url(https://i.pinimg.com/550x/e8/5e/8b/e85e8bcbc6f3c346ed2644fe5a5ad8a2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 13px;
+    padding: 18px;
+    box-shadow: 0 10px 15px rgb(0, 0, 0);
+    
+
+}
+
+#display{
+    width: 100%;
+    height: 50px;
+    font-size: 22px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 21, 21);
+    border: none;
+    box-sizing: border-box;
+}
+
+button{
+    width: calc(25% - 12px);
+    height: 50px;
+    font-size: 22px;
+    margin: 10px 5px;
+    border: none;
+    float: left;
+    background-color: rgb(23, 51, 29);
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 10px 15px rgb(15, 16, 16);
+    border-radius: 15%;
+    
+}
+
+.operator{
+    color: rgb(255, 255, 255) ;
+    background-color: rgb(188, 167, 110);
+}
+ #ac{
+    color: rgb(255, 255, 255);
+ }
+
+ .equal{
+    width: calc(50% - 12px);
+    background-color:rgb(6, 28, 20);
+ }
+
+ button:hover{
+    cursor: pointer;
+ }
+
+ button:active{
+    transform:scale(.9);
+    box-shadow: 5px 10px 15px rgb(5, 5, 5);
+ }
+
+ footer{
+    color: white;
+
+ }
